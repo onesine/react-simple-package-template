@@ -10,12 +10,8 @@
         "forceConsistentCasingInFileNames": true,
         "resolveJsonModule": true,
         "importHelpers": true,
-        "alwaysStrict": true,
-        "noImplicitReturns": true,
-        "noImplicitThis": true,
-        "noImplicitAny": true,
-        "strictNullChecks": true,
         "strict": true,
+        "noImplicitReturns": true,
 
         "esModuleInterop": true,
         "baseUrl": "src/",
