@@ -1,3 +1,5 @@
-import Counter from "./components/Counter";
+import Title from "./components/Title";
+import HelloWorld from "./components/HelloWorld";
 
-export default Counter;
+
+export {Title, HelloWorld}

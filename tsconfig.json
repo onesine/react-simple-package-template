@@ -5,21 +5,17 @@
         "module": "esnext",
         "jsx": "react",
         "moduleResolution": "node",
-
-        "allowJs": true,
         "forceConsistentCasingInFileNames": true,
-        "resolveJsonModule": true,
-        "importHelpers": true,
         "strict": true,
         "noImplicitReturns": true,
-
+        "allowSyntheticDefaultImports": true,
         "esModuleInterop": true,
         "baseUrl": "src/",
         "declaration": true,
         "declarationDir": "dist",
         "inlineSources": true,
         "sourceMap": true,
-        "rootDir": "src",
+        "rootDir": "src"
 
     },
     "include": ["src/**/*"],

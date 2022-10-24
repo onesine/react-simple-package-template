@@ -8,9 +8,8 @@
     "author": "Lewhe Onesine",
     "license": "MIT",
     "scripts": {
-        "dev": "NODE_ENV=dev rollup -c",
-        "watch": "NODE_ENV=dev rollup -c --watch",
-        "build": "NODE_ENV=production rollup -c"
+        "prebuild": "rm -rf dist",
+        "build": "npm run prebuild && rollup -c"
     },
     "repository": {
         "type": "git",
@@ -23,14 +22,11 @@
     "devDependencies": {
         "@babel/core": "^7.18.9",
         "@babel/preset-react": "^7.18.6",
-        "@rollup/plugin-babel": "^5.3.1",
         "@rollup/plugin-commonjs": "^22.0.1",
         "@rollup/plugin-node-resolve": "^13.3.0",
         "@rollup/plugin-typescript": "^9.0.2",
         "@types/react": "^18.0.21",
         "rollup": "^2.77.2",
-        "rollup-plugin-styles": "^4.0.0",
-        "rollup-plugin-terser": "^7.0.2",
         "tslib": "^2.4.0",
         "typescript": "^4.8.4"
     }
