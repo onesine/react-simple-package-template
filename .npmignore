@@ -1,9 +1,12 @@
 ## Folders
 src
 node_modules
+.vscode
 .idea
+assets
 ## Files
 babel.config.json
+tsconfig.json
 rollup.config.js
 .git
 .gitignore
