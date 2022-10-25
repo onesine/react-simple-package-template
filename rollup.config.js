@@ -5,17 +5,17 @@ import typescript from "@rollup/plugin-typescript";
 const packageJson = require("./package.json");
 
 export default {
-    input: `src/index.tsx`,
+    input: "src/index.tsx",
     output: [
         {
             file: packageJson.main,
-            format: 'cjs',
+            format: "cjs",
             exports: "auto",
             sourcemap: true,
         },
         {
             file: packageJson.module,
-            format: 'esm',
+            format: "esm",
             exports: "auto",
             sourcemap: true,
         },
